@@ -144,7 +144,7 @@ class Application:
 
     def show_message(self):
         """Показать информационное сообщение."""
-        messagebox.showinfo("Информация", "Это сообщение из выпадающего меню!")
+        messagebox.showinfo("Информация", "Создатель данного приложения - OverNiko\nМои контакты:\n1. GitHub - https://github.com/OverNiko\n2. TG - https://t.me/OverNiko")
         logging.info("Показано информационное сообщение")
 
     def close_application(self):
